@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script type="text/javascript">
+	function promptMessage() {
+	
+var userQuestion = prompt('Ask the amazing magic eight ball a question!', '');
+var randomNumber = Math.floor(Math.random() *5)
+var eightBall = ' '
+	switch(randomNumber) {
+    case 0:
+      eightBall = 'Not fucking likely';
+      break;
+    case 1:
+      eightBall = 'My sources say you sound like a fag, and your shit\'s all retarded';
+      break;
+    case 2:
+      eightBall = 'Maybe... If you weren\'t such a little bitch';
+      break;
+    case 3:
+      eightBall = 'Cannot reply now. Busy taking a giant shit';
+      break;
+    case 4:
+       eightBall = 'Bitch, please. Just... no';
+       break;
+      }
+alert('The eight ball answered: ' + eightBall)
+  }
+</script>
+</head> 
+<body> 
+<form> 
+<input type="button" onclick="promptMessage('Ask the amazing magic eight ball a question!')" value="Click here to ask the magic eight ball a question" /> 
+</form> 
+</body> 
+</html>
